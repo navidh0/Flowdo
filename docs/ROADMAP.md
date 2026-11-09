@@ -197,6 +197,24 @@ than up front.
 
 ---
 
+## Backlog — not yet scheduled
+
+Added 2026-11-09. Four batches, each meant to ship as one release. The tasks for each are in
+[`BACKLOG.md`](BACKLOG.md). Batch 1 should land before v1.0, whose data-integrity work
+assumes the sessions going in are clean.
+
+1. **Your hours, trustworthy** — add a forgotten session or fix one that ran too long
+   (deleting already works), and idle detection that asks what to do with time you were away
+   from the desk.
+2. **Goals and estimates** — daily and weekly focus goals with progress in the timer and on
+   the Stats chart, and estimated vs actual Pomodoros on tasks.
+3. **Reports you can hand to someone** — CSV and PDF reports of time per project and task for
+   a date range, saved locally.
+4. **Focus protection** — silence the system's notifications during a focus block where the
+   operating system allows it.
+
+---
+
 ## Later, after v1.0
 
 Postponed past v1.0 on 2026-09-25, to keep the near-term roadmap focused on hardening what
