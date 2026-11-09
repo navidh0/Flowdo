@@ -207,6 +207,20 @@ already exists rather than adding more integrations to harden later.
   read-only scope, no client secret in the code — the repository is public.
 - **Jira** — an additional task source alongside Todoist, read-only to begin with. Synced
   issues are marked as such and link back to Jira.
+- **Shared time tracking (Clockify, or a Flowdo server)** — added 2026-11-09. Work hours
+  logged per task and visible to you across machines, to a team, and to clients. Undecided:
+  whether the shared copy lives in Clockify, with Flowdo pushing each finished focus session as
+  a time entry and people monitoring in Clockify's dashboards, or in a Flowdo server of its own,
+  with accounts, a web dashboard and the hosting and privacy duties that brings.
+  - Research on the Clockify route, still to be confirmed against Clockify's own docs:
+    - The API takes a personal key, and a session maps to a single time-entry call.
+    - The API gives no protection against duplicate entries, so Flowdo would keep each
+      returned entry id.
+    - Webhooks are no use to a desktop app.
+    - New free workspaces may be limited to about 30 API requests an hour, which decides
+      whether the free plan is enough.
+  - Either way, Flowdo stays the record on your machine and the shared copy only receives
+    it; nothing is shared until you turn it on.
 
 ---
 
@@ -222,8 +236,8 @@ already exists rather than adding more integrations to harden later.
 ## Not planned
 
 - **A mobile app.** Flowdo is a desktop tool that watches you work at a desk.
-- **A sync service.** Your data stays on your machine. Export and import cover moving it.
-- **Team features.** This is a personal tracker.
+- **A sync service, and team features, before v1.0.** Until then Flowdo stays a personal,
+  local-first tracker. Shared time tracking is in the list above, after v1.0.
 
 ## Where your data lives
 
