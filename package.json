@@ -21,28 +21,28 @@
   },
   "dependencies": {
     "@electron-toolkit/utils": "^4.0.0",
-    "electron-updater": "^6.8.9",
-    "node-ical": "^0.27.2",
-    "zustand": "^5.0.15"
+    "electron-updater": "^6.8.11",
+    "node-ical": "^0.27.3",
+    "zustand": "^5.0.16"
   },
   "devDependencies": {
     "@electron-toolkit/tsconfig": "^2.0.0",
     "@tailwindcss/vite": "^4.3.3",
-    "@types/node": "^26.6.2",
+    "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^5.2.0",
     "electron": "^44.4.5",
-    "electron-builder": "^26.15.3",
+    "electron-builder": "^26.18.0",
     "electron-vite": "^5.0.0",
-    "playwright-core": "^1.63.0",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "playwright-core": "^1.64.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "recharts": "^3.10.1",
     "tailwindcss": "^4.3.3",
     "typescript": "~7.0.2",
-    "vite": "~7.3.6",
-    "vitest": "^5.0.1"
+    "vite": "~7.3.7",
+    "vitest": "^5.0.5"
   },
   "overrides": {
     "js-yaml": "4.3.2"
